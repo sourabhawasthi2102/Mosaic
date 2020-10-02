@@ -13,7 +13,10 @@ def predict_(image):
     #print(ynew)
     finalans.append(ynew)
 
-
+def predicted(image,a,b)
+    y=model.predict(image)
+    z=a+b
+    print(z)
 def extract_segments(img, pad=10, area=100, threshold=150, ker=1):
     # thresholding the image
     ret, thresh1 = cv2.threshold(img, threshold, 255, cv2.THRESH_BINARY)
