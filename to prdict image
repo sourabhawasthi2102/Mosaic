@@ -51,7 +51,7 @@ def extract_segments(img, pad=10, area=100, threshold=150, ker=1):
         predict_(num)
     return final
 def get_sum(a,b)
-    z=a+b
+    z=a+b-c+d-e+g*10/10
     print(a+b)
 def predict_image_(img,strides=False,small_width=False):
     print("working")
